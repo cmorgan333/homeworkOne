@@ -1,22 +1,14 @@
 function changeRoute() {
     let hashTag = window.location.hash;
     let pageID = hashTag.replace("#", "");
-    console.log(hashTag + " " + pageID);
-}
+    // console.log(hashTag + " " + pageID);
 
+MODEL.updateView(pageID)
 // ====add this set of code to model===//
-if(pageID != "") {
-    $.get(`pages/${pageID}/${pageID}.html`, function(data){
-        console.log("data " + data);
-        $("#app").html(data);
-    });
-}else {
-    $.get(`pages/home/home.html`, function(data){
-        console.log("data " + data);
-        $("#app").html(data);
-    });
 
+// add the above to the model and then pass over the page id
 }
+
 
 
 function initURLListener(){
@@ -27,4 +19,5 @@ function initURLListener(){
 
 $(document).ready(function() {
     initURLListener();
+    // console.log(MODEL.pageID);
 });
