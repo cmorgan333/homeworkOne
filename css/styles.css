@@ -50,3 +50,11 @@ p {
 .nav-holder .nav-links .africa {
   width: 60px;
 }
+
+.hero {
+  height: 400px;
+  background-image: url(../images/home/doctorcollagethree.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
