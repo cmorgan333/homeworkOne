@@ -311,31 +311,36 @@ footer .footer-container .socials .insta {
   justify-content: space-between;
 }
 .procedure-content .procedure-box .procedure-info {
-  width: 1150px;
+  width: 1000px;
   margin: 0 auto;
-  background-color: teal;
   display: flex;
+  justify-content: space-between;
 }
 .procedure-content .procedure-box .procedure-info .procedure-textbox {
-  height: 400px;
-  background-color: purple;
+  width: 500px;
+  min-height: 400px;
+  margin-top: 50px;
 }
 .procedure-content .procedure-box .procedure-info .procedure-textbox h1 {
   font-family: Helvetica;
   font-size: 40px;
-  background-color: green;
   margin-top: 50px;
   margin-bottom: 0;
   height: 60px;
 }
 .procedure-content .procedure-box .procedure-info .procedure-textbox p {
   font-family: Helvetica;
-  width: 465px;
+  width: 350px;
   margin-top: 20px;
   margin-bottom: 40px;
   min-height: 100px;
   font-size: 20px;
-  background-color: blue;
+  letter-spacing: 2px;
+}
+.procedure-content .procedure-box .procedure-info .cancer {
+  width: 450px;
+  margin-left: 50px;
+  margin-top: 0;
 }
 .procedure-content .procedure-box .procedure-info .button-container {
   width: 193px;
@@ -363,7 +368,7 @@ footer .footer-container .socials .insta {
 .procedure-content .procedure-box .procedure-info .button-container .button-fill .text-container {
   width: 200px;
   margin-top: 7px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   line-height: 25px;
   text-align: center;
   font-size: 16px;
@@ -372,6 +377,39 @@ footer .footer-container .socials .insta {
 }
 .procedure-content .procedure-box .procedure-image {
   width: 508px;
-  height: 340px;
-  background-color: yellowgreen;
+  min-height: 340px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.procedure-content .procedure-box .viles {
+  background-image: url(../images/procedures/testing2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.procedure-content .procedure-box .thermometer {
+  width: 360px;
+  height: 519px;
+  margin-left: 70px;
+  background-image: url(../images/procedures/thermometer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.procedure-content .procedure-box .med-tools {
+  width: 312px;
+  height: 468px;
+  margin-right: 150px;
+  background-image: url(../images/procedures/tool-collage.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.procedure-content .procedure-box .research {
+  width: 502px;
+  height: 335px;
+  background-image: url(../images/research/lab-tech.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
