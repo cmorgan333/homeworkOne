@@ -799,7 +799,7 @@ footer .footer-container .socials .insta {
 }
 .contact-content .contact-image .contact-info {
   width: 332px;
-  height: 363px;
+  height: 336px;
   background-color: #121616;
   opacity: 0.5;
   border-radius: 24px;
@@ -819,4 +819,16 @@ footer .footer-container .socials .insta {
   color: white;
   margin-left: 30px;
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact-number {
+    margin-top: 0;
+    font-size: 15px;
+  }
+
+  .contact-email {
+    margin-top: 0;
+    font-size: 15px;
+  }
 }

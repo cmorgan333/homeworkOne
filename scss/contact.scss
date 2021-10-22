@@ -40,7 +40,7 @@
 
 		.contact-info {
 			width: 332px;
-			height: 363px;
+			height: 336px;
 			background-color: #121616;
 			opacity: .50;
 			border-radius: 24px;
@@ -63,5 +63,16 @@
 				margin-top: 50px;
 			}
 		}
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-number {
+		margin-top: 0;
+		font-size: 15px;
+	}
+	.contact-email {
+		margin-top: 0;
+		font-size: 15px;
 	}
 }
