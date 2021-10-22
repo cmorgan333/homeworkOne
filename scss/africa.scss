@@ -26,4 +26,112 @@
 			}
 		}
 	}
+	.africa-box {
+		width: 1017px;
+		min-height: 200px;
+		margin: 100px auto;
+		display: flex;
+		justify-content: space-between;
+
+		.africa-image {
+			width: 490px;
+			height: 742px;
+			background-image: url(../images/africa/africawood.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			// margin-top: 113px;
+		}
+
+		.africa-text {
+			width: 465px;
+			min-height: 200px;
+
+			h1 {
+				font-family: Helvetica;
+				font-size: 40px;
+			}
+
+			p {
+				font-family: Helvetica;
+				font-size: 20px;
+				letter-spacing: 2px;
+				line-height: 35px;
+				margin-bottom: 40px;
+			}
+		}
+	}
+	// =====VOLUNTEER HERO====//
+
+	.volunteer {
+		height: 400px;
+		background-image: url(../images/africa/volunteertwo.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.text-box {
+			width: 900px;
+			height: 191px;
+			background-color: #040404;
+			opacity: .58;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			.volunteer-text {
+				width: 700px;
+				height: 60px;
+				font-family: Helvetica;
+				font-size: 60px;
+				color: white;
+			}
+		}
+	}
+	.get-involved {
+		width: 465px;
+		min-height: 200px;
+		margin: 0 auto;
+		margin-top: 100px;
+
+		h1 {
+			font-family: Helvetica;
+			font-size: 40px;
+		}
+		p {
+			font-family: Helvetica;
+			font-size: 20px;
+			letter-spacing: 2px;
+			line-height: 35px;
+		}
+
+		.button-container {
+			width: 265px;
+			height: 136px;
+			border: 5px solid;
+			border-color: #2d8f8c;
+			border-radius: 17px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 75px auto;
+
+			.button-fill {
+				width: 241px;
+				height: 112px;
+				background-color: #2d8f8c;
+				border-radius: 7px;
+				display: flex;
+				justify-content: center;
+
+				.text-container {
+					font-family: Helvetica;
+					font-size: 30px;
+					color: white;
+				}
+			}
+		}
+	}
 }
