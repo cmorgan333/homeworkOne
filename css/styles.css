@@ -73,36 +73,46 @@ p {
 }
 
 .home-content {
-  width: 1000px;
   min-height: 200px;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 .home-content h1 {
+  width: 1000px;
   font-family: "Helvetica";
   font-size: 40px;
-  min-height: 60px;
+  margin: 100px auto;
+  height: 100px;
 }
-.home-content p {
+.home-content .pro-header {
+  width: 500px;
+}
+.home-content .text-button {
+  width: 500px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.home-content .text-button p {
   width: 500px;
   min-height: 200px;
   font-family: Helvetica;
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 35px;
-  margin: 75px auto;
+  margin-top: 25px;
+  margin: 50px auto;
 }
-.home-content .button-container {
+.home-content .text-button .button-container {
   width: 360px;
   height: 180px;
   border: 5px solid;
-  margin: 0 auto;
+  margin-top: 100px;
   border-radius: 39px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-color: #2d8f8c;
 }
-.home-content .button-container .button-fill {
+.home-content .text-button .button-container .button-fill {
   width: 338px;
   height: 157px;
   background-color: #2d8f8c;
@@ -113,10 +123,67 @@ p {
   display: flex;
   justify-content: center;
 }
-.home-content .button-container .button-fill .text-container {
+.home-content .text-button .button-container .text-container {
   width: 200px;
   margin-top: 10px;
   letter-spacing: 10px;
   line-height: 45px;
   text-align: center;
+}
+.home-content .text-button .button-container .two {
+  width: 250px;
+  height: 100px;
+  margin-top: 30px;
+}
+.home-content .home-procedurepic {
+  height: 450px;
+  width: 100%;
+  margin-top: 165px;
+  background-image: url(../images/procedures/patienttwo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-content .home-researchpic {
+  height: 450px;
+  width: 100%;
+  margin-top: 165px;
+  background-image: url(../images/research/labtech2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-content .search-header {
+  width: 500px;
+}
+.home-content .buttons-two {
+  display: flex;
+  justify-content: space-between;
+}
+.home-content .buttons-two .smallcon {
+  width: 220px;
+}
+.home-content .buttons-two .smallcon .smallfill {
+  width: 200px;
+}
+.home-content .buttons-two .smallcon .smalltext {
+  font-size: 18px;
+  padding-top: 20px;
+}
+.home-content .home-africapic {
+  height: 450px;
+  width: 100%;
+  margin-top: 165px;
+  background-image: url(../images/africa/med2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-content .africa-header {
+  width: 500px;
+}
+.home-content .three {
+  padding-top: 25px;
+  width: 100px;
+  height: 100px;
 }
