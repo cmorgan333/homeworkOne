@@ -19,6 +19,10 @@ p {
   margin-bottom: 16px;
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: url(../css/fonts/HelveticaNeue.ttc);
+}
 .nav-holder {
   height: 100px;
   display: flex;
@@ -51,10 +55,68 @@ p {
   width: 60px;
 }
 
+.hero-container {
+  height: 500px;
+  background-color: #bdbbbb;
+  display: flex;
+  align-items: center;
+}
+
 .hero {
+  width: 1765px;
   height: 400px;
   background-image: url(../images/home/doctorcollagethree.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-left: 0;
+}
+
+.home-content {
+  width: 1000px;
+  min-height: 200px;
+  margin: 100px auto;
+}
+.home-content h1 {
+  font-family: "Helvetica";
+  font-size: 40px;
+  min-height: 60px;
+}
+.home-content p {
+  width: 500px;
+  min-height: 200px;
+  font-family: Helvetica;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 35px;
+  margin: 75px auto;
+}
+.home-content .button-container {
+  width: 360px;
+  height: 180px;
+  border: 5px solid;
+  margin: 0 auto;
+  border-radius: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #2d8f8c;
+}
+.home-content .button-container .button-fill {
+  width: 338px;
+  height: 157px;
+  background-color: #2d8f8c;
+  font-family: Helvetica;
+  color: white;
+  font-size: 30px;
+  border-radius: 29px;
+  display: flex;
+  justify-content: center;
+}
+.home-content .button-container .button-fill .text-container {
+  width: 200px;
+  margin-top: 10px;
+  letter-spacing: 10px;
+  line-height: 45px;
+  text-align: center;
 }
