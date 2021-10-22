@@ -413,3 +413,95 @@ footer .footer-container .socials .insta {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.research-content .research-hero {
+  height: 400px;
+  background-image: url(../images/research/labtech2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research-content .research-hero .text-box {
+  width: 790px;
+  height: 191px;
+  background-color: #040404;
+  opacity: 0.58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research-content .research-hero .searchtext {
+  font-family: Helvetica;
+  font-size: 80px;
+  color: white;
+  letter-spacing: 5px;
+}
+.research-content h1 {
+  width: 700px;
+  font-family: "Helvetica";
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 40px;
+  height: 100px;
+}
+.research-content .research {
+  width: 700px;
+  font-family: "Helvetica";
+  font-size: 40px;
+  padding-top: 80px;
+  height: 100px;
+  margin: 0 auto;
+}
+.research-content .research-container {
+  width: 955px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.research-content .research-container .research-box {
+  border: 3px solid;
+  border-color: #989797;
+  border-radius: 31px;
+  margin: 100px auto;
+}
+.research-content .research-container .research-info {
+  width: 877px;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.research-content .research-container .research-info p {
+  width: 540px;
+  min-height: 200px;
+  font-family: Helvetica;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-left: 40px;
+  line-height: 35px;
+}
+.research-content .research-container .research-info .button-container {
+  width: 265px;
+  height: 136px;
+  border: 5px solid;
+  border-color: #2d8f8c;
+  border-radius: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research-content .research-container .research-info .button-container .button-fill {
+  width: 241px;
+  height: 112px;
+  background-color: #2d8f8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.research-content .research-container .research-info .button-container .button-fill .text-container {
+  width: 150px;
+  font-family: Helvetica;
+  font-size: 30px;
+  color: white;
+}
