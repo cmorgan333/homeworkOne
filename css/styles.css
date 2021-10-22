@@ -505,3 +505,29 @@ footer .footer-container .socials .insta {
   font-size: 30px;
   color: white;
 }
+
+.africa-content .africa-hero {
+  height: 400px;
+  background-image: url(../images/africa/med2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.africa-content .africa-hero .text-box {
+  width: 900px;
+  height: 191px;
+  background-color: #040404;
+  opacity: 0.58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.africa-content .africa-hero .text-box .africa-text {
+  font-family: Helvetica;
+  font-size: 80px;
+  color: white;
+  letter-spacing: 5px;
+}

@@ -1,0 +1,25 @@
+.africa-content .africa-hero {
+  height: 400px;
+  background-image: url(../images/procedures/patienttwo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.africa-content .africa-hero .text-box {
+  width: 790px;
+  height: 191px;
+  background-color: #040404;
+  opacity: 0.58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.africa-content .africa-hero .text-box .protext {
+  font-family: Helvetica;
+  font-size: 80px;
+  color: white;
+  letter-spacing: 5px;
+}
