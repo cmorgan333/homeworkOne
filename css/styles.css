@@ -24,7 +24,7 @@ p {
   src: url(../css/fonts/HelveticaNeue.ttc);
 }
 .nav-holder {
-  height: 100px;
+  min-height: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -39,6 +39,7 @@ p {
   margin-left: 50px;
 }
 .nav-holder .nav-links {
+  min-height: 60px;
   width: 900px;
   display: flex;
   justify-content: space-between;
@@ -46,6 +47,7 @@ p {
   margin-right: 50px;
 }
 .nav-holder .nav-links a {
+  min-height: 60px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -55,6 +57,34 @@ p {
   width: 60px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .nav-holder {
+    display: block;
+  }
+  .nav-holder .nav-logo {
+    margin: 50px auto;
+  }
+  .nav-holder .nav-links {
+    margin: 50px auto;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .nav-links {
+    max-width: 800px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav-links a {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .nav-links {
+    max-width: 400px;
+    flex-wrap: wrap;
+  }
+}
 .hero-container {
   height: 500px;
   background-color: #bdbbbb;
@@ -63,7 +93,7 @@ p {
 }
 
 .hero {
-  width: 1765px;
+  width: 1800px;
   height: 400px;
   background-image: url(../images/home/doctorcollagethree.png);
   background-size: cover;
@@ -77,7 +107,8 @@ p {
   margin: 0 auto;
 }
 .home-content h1 {
-  width: 1000px;
+  max-width: 1000px;
+  min-height: 60px;
   font-family: "Helvetica";
   font-size: 40px;
   margin: 100px auto;
@@ -248,6 +279,38 @@ footer .footer-container .socials .insta {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 1550px) {
+  .hero-container {
+    max-width: 1500px;
+  }
+  .hero-container .hero {
+    width: px;
+    background-image: url(../images/home/globe.jpg);
+  }
+}
+@media only screen and (max-width: 1100px) {
+  h1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 820px) {
+  p {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  p {
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+  }
+
+  .button-container {
+    margin: 0 auto;
+  }
+}
 .procedure-content .procedure-hero {
   height: 400px;
   background-image: url(../images/procedures/patienttwo.png);
@@ -274,7 +337,7 @@ footer .footer-container .socials .insta {
   letter-spacing: 5px;
 }
 .procedure-content h1 {
-  width: 700px;
+  max-width: 700px;
   font-family: "Helvetica";
   font-size: 40px;
   margin: 100px auto;
@@ -311,7 +374,8 @@ footer .footer-container .socials .insta {
   justify-content: space-between;
 }
 .procedure-content .procedure-box .procedure-info {
-  width: 1000px;
+  min-height: 200px;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -414,6 +478,16 @@ footer .footer-container .socials .insta {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 1200px) {
+  .procedure-info {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .procedure-content .procedure-hero .text-box .protext {
+    font-size: 40px;
+  }
+}
 .research-content .research-hero {
   height: 400px;
   background-image: url(../images/research/labtech2.png);
@@ -432,6 +506,7 @@ footer .footer-container .socials .insta {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 30px;
 }
 .research-content .research-hero .searchtext {
   font-family: Helvetica;
@@ -440,7 +515,8 @@ footer .footer-container .socials .insta {
   letter-spacing: 5px;
 }
 .research-content h1 {
-  width: 700px;
+  max-width: 700px;
+  min-height: 50px;
   font-family: "Helvetica";
   font-size: 40px;
   margin-top: 30px;
@@ -448,7 +524,8 @@ footer .footer-container .socials .insta {
   height: 100px;
 }
 .research-content .research {
-  width: 700px;
+  min-height: 60px;
+  max-width: 700px;
   font-family: "Helvetica";
   font-size: 40px;
   padding-top: 80px;
@@ -456,30 +533,33 @@ footer .footer-container .socials .insta {
   margin: 0 auto;
 }
 .research-content .research-container {
-  width: 955px;
+  max-width: 955px;
   min-height: 200px;
   margin: 0 auto;
 }
 .research-content .research-container .research-box {
+  max-width: 955px;
+  min-height: 100px;
   border: 3px solid;
   border-color: #989797;
   border-radius: 31px;
   margin: 100px auto;
 }
 .research-content .research-container .research-info {
-  width: 877px;
-  min-height: 200px;
+  max-width: 877px;
+  min-height: 100px;
   display: flex;
   justify-content: space-between;
 }
 .research-content .research-container .research-info p {
-  width: 540px;
-  min-height: 200px;
+  max-width: 540px;
+  min-height: 100px;
   font-family: Helvetica;
   font-size: 20px;
   letter-spacing: 2px;
-  margin-left: 40px;
   line-height: 35px;
+  padding-left: 50px;
+  margin-bottom: 30px;
 }
 .research-content .research-container .research-info .button-container {
   width: 265px;
@@ -506,6 +586,39 @@ footer .footer-container .socials .insta {
   color: white;
 }
 
+@media only screen and (max-width: 1150px) {
+  .reserch-box {
+    display: block;
+  }
+  .reserch-box .research-info {
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .research-box {
+    max-width: 800px;
+  }
+  .research-box .research-info {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .research-box {
+    max-width: 900px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  p {
+    margin: 0 auto;
+    margin-left: 20px;
+  }
+
+  .button-container {
+    margin: 50px auto;
+  }
+}
 .africa-content .africa-hero {
   height: 400px;
   background-image: url(../images/africa/med2.png);
@@ -629,6 +742,24 @@ footer .footer-container .socials .insta {
   color: white;
 }
 
+@media only screen and (max-width: 950px) {
+  .africa-text {
+    font-size: 40px;
+    padding-left: 30px;
+  }
+
+  .africa-box {
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .africa-box .africa-text h1 {
+    margin-top: 50px;
+  }
+  .africa-box .africa-text p {
+    margin-top: -30px;
+  }
+}
 .contact-hero {
   height: 400px;
   background-image: url(../images/contact/contact2.png);

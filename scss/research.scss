@@ -17,6 +17,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			margin-left: 30px;
 		}
 
 		.searchtext {
@@ -28,7 +29,8 @@
 	}
 
 	h1 {
-		width: 700px;
+		max-width: 700px;
+		min-height: 50px;
 		font-family: "Helvetica";
 		font-size: 40px;
 		margin-top: 30px;
@@ -37,7 +39,8 @@
 	}
 
 	.research {
-		width: 700px;
+		min-height: 60px;
+		max-width: 700px;
 		font-family: "Helvetica";
 		font-size: 40px;
 		padding-top: 80px;
@@ -47,11 +50,13 @@
 	}
 
 	.research-container {
-		width: 955px;
+		max-width: 955px;
 		min-height: 200px;
 		margin: 0 auto;
 
 		.research-box {
+			max-width: 955px;
+			min-height: 100px;
 			border: 3px solid;
 			border-color: #989797;
 			border-radius: 31px;
@@ -59,19 +64,22 @@
 		}
 
 		.research-info {
-			width: 877px;
-			min-height: 200px;
+			max-width: 877px;
+			min-height: 100px;
 			display: flex;
 			justify-content: space-between;
 
 			p {
-				width: 540px;
-				min-height: 200px;
+				max-width: 540px;
+				min-height: 100px;
 				font-family: Helvetica;
 				font-size: 20px;
 				letter-spacing: 2px;
-				margin-left: 40px;
+				// margin-left: 40px;
 				line-height: 35px;
+				// background-color: chartreuse;
+				padding-left: 50px;
+				margin-bottom: 30px;
 			}
 
 			.button-container {
@@ -101,5 +109,44 @@
 				}
 			}
 		}
+	}
+}
+
+// ==========RESPONSIVENESS======//
+@media only screen and (max-width: 1150px) {
+	.reserch-box {
+		display: block;
+
+		.research-info {
+			flex-direction: column;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+}
+
+@media only screen and (max-width: 1030px) {
+	.research-box {
+		max-width: 800px;
+
+		.research-info {
+			flex-direction: column;
+		}
+	}
+}
+
+@media only screen and (max-width: 1030px) {
+	.research-box {
+		max-width: 900px;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	p {
+		margin: 0 auto;
+		margin-left: 20px;
+	}
+	.button-container {
+		margin: 50px auto;
 	}
 }

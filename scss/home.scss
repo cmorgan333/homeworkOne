@@ -6,7 +6,7 @@
 }
 
 .hero {
-	width: 1765px;
+	width: 1800px;
 	height: 400px;
 	background-image: url(../images/home/doctorcollagethree.png);
 	background-size: cover;
@@ -21,7 +21,8 @@
 	min-height: 200px;
 	margin: 0 auto;
 	h1 {
-		width: 1000px;
+		max-width: 1000px;
+		min-height: 60px;
 		font-family: "Helvetica";
 		font-size: 40px;
 		margin: 100px auto;
@@ -209,5 +210,42 @@ footer {
 				background-repeat: no-repeat;
 			}
 		}
+	}
+}
+
+// ======RESPONSIVENESS========//
+@media only screen and (max-width: 1550px) {
+	.hero-container {
+		max-width: 1500px;
+		.hero {
+			width: px;
+			background-image: url(../images/home/globe.jpg);
+		}
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	h1 {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media only screen and (max-width: 820px) {
+	p {
+		padding-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	p {
+		padding-top: 100px;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: 0 auto;
+	}
+
+	.button-container {
+		margin: 0 auto;
 	}
 }
