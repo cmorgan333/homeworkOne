@@ -1,0 +1,7 @@
+.procedure-content .procedure-hero {
+  height: 400px;
+  background-image: url(../images/procedures/patienttwo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

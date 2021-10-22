@@ -247,3 +247,68 @@ footer .footer-container .socials .insta {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.procedure-content .procedure-hero {
+  height: 400px;
+  background-image: url(../images/procedures/patienttwo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.procedure-content .procedure-hero .text-box {
+  width: 790px;
+  height: 191px;
+  background-color: #040404;
+  opacity: 0.58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.procedure-content .procedure-hero .text-box .protext {
+  font-family: Helvetica;
+  font-size: 80px;
+  color: white;
+  letter-spacing: 5px;
+}
+.procedure-content h1 {
+  width: 700px;
+  font-family: "Helvetica";
+  font-size: 40px;
+  margin: 100px auto;
+  height: 100px;
+}
+.procedure-content .common-issues {
+  height: 400px;
+  background-color: #080607;
+  opacity: 0.38;
+}
+.procedure-content .common-issues h1 {
+  font-family: Helvetica;
+  font-size: 40px;
+  width: 500px;
+  color: white;
+  margin: 50px auto;
+  padding-top: 70px;
+}
+.procedure-content .common-issues p {
+  width: 500px;
+  font-family: Helvetica;
+  font-size: 25px;
+  color: white;
+  margin: 50px auto;
+  padding-top: 25px;
+  line-height: 40px;
+}
+.procedure-content .procedure-box {
+  min-height: 200px;
+  border-bottom: 3px solid;
+  border-color: #707070;
+  opacity: 0.29;
+}
+.procedure-content .procedure-box .procedure-info {
+  width: 1000px;
+  min-height: 200px;
+}
